@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container wrapper">
+    <div class="header">
+      <div class="logo">
+        <img src="images/logo.png" class="logo">
+      </div>
+      <div class="nav_bar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search.." id="search" name="search">
+      <i class="fa fa-search"></i>
+      </div>
+    </div>
+    <div class="container_inner">
+      <div class="hero_header">
+        <div class="hero_text">
+          <h1>All You Need <br>Classified Ads</h1>
+          <p class="prom">These ads are concise, or additional details like pricing or availability.</p>
+          <button>Correct</button>
+        </div>
+        <div class="hero_btn">
+          <img src="images/vid.png" class="vid">
+        </div>
+      </div>
+    </div>
+    <div class="container_inner">
+      <div class="quick_links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="promoted">
+    <p class="pro">PROMOTED ADS</p>
+  </div>
+  <div class="container_inner">
+    <div class="second">
+      <img src="images/image1.jpeg" alt="" class="imgsec">
+      <div class="prometed">Promoted</div>
+      <ul>
+        <li><img src="images/eye_icon.png" class="eye_icon"></li>
+        <li><img src="images/heart_icon.png" class="eye_icon"></li>
+      </ul>
+      <button class="button2">Stars</button>
+
+    </div>
+    <div class="second">
+      <img src="images/image1.jpeg" alt="" class="imgsec">
+      <div class="prometed">Promoted</div>
+      <ul>
+        <li><img src="images/eye_icon.png" class="eye_icon"></li>
+        <li><img src="images/heart_icon.png" class="eye_icon"></li>
+      </ul>
+      <button class="button2">Stars</button>
+
+    </div>
+    <div class="second">
+      <img src="images/image1.jpeg" alt="" class="imgsec">
+      <div class="prometed">Promoted</div>
+      <ul>
+        <li><img src="images/eye_icon.png" class="eye_icon"></li>
+        <li><img src="images/heart_icon.png" class="eye_icon"></li>
+      </ul>
+      <button class="button2">Stars</button>
+
+    </div>
+    <div class="second">
+      <img src="images/image1.jpeg" alt="" class="imgsec">
+      <div class="prometed">Promoted</div>
+      <ul>
+        <li><img src="images/eye_icon.png" class="eye_icon"></li>
+        <li><img src="images/heart_icon.png" class="eye_icon"></li>
+      </ul>
+      <button class="button2">Stars</button>
+    </div>
+
+  </div>
+  <div class="promoted">
+    <p class="pro">PROMOTED VIDEO</p>
+  </div>
+  <div class="container_inner">
+    <div class="third">
+      <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+      <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+      <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <div class="container_inner">
+    <div class="third">
+      <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+      <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+      <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  </div>
+  <div class="promoted">
+    <p class="pro">PROMOTED ADS</p>
+  </div>
+  
+  </div>
+  <div class="container_inner">
+    <div class="input">
+      <form action="#"  onsubmit="return validateFrom()">
+        <input type="tel" id="username" name="phone" placeholder="Your name" ><br><br>
+        <p id="usererror" class="error"></p>
+        <input type="tel" id="useremail" name="phone" placeholder="Email" ><br><br>
+        <p id="emailerror" class="error"></p>
+        <input type="tel" id="userpaasword" name="phone" placeholder="paasword" ><br><br>
+        <p id="paaserror" class="error"></p>
+        <input type="submit">
+        <br><br>
+      </form>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="row">
+    <div class="container_inner">
+          
+            <div class="column">
+              <h4>Videos</h4>
+              <p>Prepare Your Video Files</p>
+              <p>Upload Your Video Files</p>
+              <p>Provide Fallback Content</p>
+              <p>Enhance Accessibility</p>
+            </div>
+            <div class="column">
+              <h4>Quick Links</h4>
+              <p><a href="#" alt="">Home</a></p>
+              <p><a href="#" alt="">About</a></p>
+              <p><a href="#" alt="">News</a></p>
+             
+              <p><a href="#" alt="">Contact</a></p>
+            </div>
+            <div class="column">
+              <h4>Suscribe Cheanel</h4>
+             <p>Tech Trek</p>
+             <p>Creative Canvas</p>
+             <p>Foodie Fusion</p>
+             <p>Gamer's Galaxy</p>
+             <p></p>
+
+             
+            </div>
+            <div class="column">
+              <h4>Contact US</h4>
+              <p> Social Media Links</p>
+              <p>Feedback Form</p>
+              <p>Physical Address</p>
+            </div>
+          
+      </div>
+    </div>
+      
+    </div>
+
+  </footer>
+
+  </div>
+  <script>
+         let username = document.getElementById("username");
+         let useremail = document.getElementById("email");
+         let userpaasword = document.getElementById("paasword");
+         let flag = 1;
+
+         function validateFrom(){
+          if(username.value == ""){
+           document.getElementById("usererror").innerHTML = "username is empty";
+           flag = 0;
+          }else if(username.value.length < 3){
+            document.getElementById("usererror").innerHTML = "username is reqerd min three char";
+            flag = 1;
+          }
+          if(useremail.value == ""){
+           document.getElementById("useremail").innerHTML = "useremail is empty";
+
+          }else if(username.value.length < 3){
+            document.getElementById("useremail").innerHTML = "username is reqerd min three char";
+
+          }
+
+          if(userpaasword.value == ""){
+            document.getElementById("paaserror").innerHTML = "password is empty";
+          }else{
+            document.getElementById("paaserror").innerHTML = "";
+          }
+         if(flag){
+          return true;
+         }else{
+          return false;
+         }
+        }
+
+  </script>
+
+</body>
+
+</html>

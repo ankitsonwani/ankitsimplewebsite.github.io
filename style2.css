@@ -1,0 +1,370 @@
+/* ul {
+   background-image: url(images/ads3.jpeg);
+   width: 100%;
+   height: 600px;
+    list-style-type: none;
+    margin: 0;
+    padding: 35px;
+    text-align: center;
+   
+  } */
+  li {
+    font-weight: bolder;
+      margin-right: 50px;
+      display: block;
+      display: inline; 
+      margin: 10px;
+      padding: 15px;
+      font: 1em sans-serif;
+      flex-direction: column;
+       
+  }
+  li a{
+    
+    font-weight: 700;
+    font-size: larger;
+    color:hsl(0, 33%, 96%);
+    text-align: center;
+    
+  }
+
+  h1{
+    color: #ddd;
+    
+  }
+  .pro{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .prom{
+    color: #ddd;
+    margin-right: 0px;
+    margin-top: -57px;
+    font-size: large;
+  }
+  button{
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 845px;
+    font-size: larger;
+    margin-top: 63px;
+  }
+  .second {
+    border: 1px solid;
+    width: 200px;
+    height: 300px;
+  }
+  .imgsec{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .button2{
+    border: 1px solid blue;
+    background-color: blue;
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 26px;
+    border-radius: 0;
+    
+  }
+  .container_inner{
+        display: flex;
+        margin-top: -27px;
+        margin-left: 9px;
+        position: relative;
+        width: 21%;
+        
+    
+  }
+   .second{
+    margin: 34px;
+    padding: 10px;
+  } 
+  .pop{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+.pra{
+  text-align: center;
+  color: blue;
+
+}
+ /* video{
+  
+  width: 320px;
+  height: 240px;
+  margin-top: 0px;
+  position: relative;
+  display: inline-flex;
+  margin-left: 100px; 
+} */
+
+.abo{
+
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-bottom: 10px;
+ color: white;
+}
+.about{
+  text-align: center;
+  color:white;
+  font-size: large;
+  
+  justify-content: center;
+  
+}
+.five{
+  background-image: url(images/ads5.jpg);
+  width: 98%;
+  height: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+video{
+  width: 328px;
+    height: 227px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+
+.third{
+  display: flex;
+  width: 37%;
+  height: 100px;
+  margin: 10px;
+  padding: 0px;
+} */
+ /* .clients{
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+ } */
+ .cli{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 101px;
+  margin-left: 587px;
+ }
+ .clien{
+        font-size: larger;
+        text-align: center;
+ }
+ .clin{
+      text-align: center;
+      width: 57%;
+      height: 20px;
+      margin-left: 285px;
+      padding: 0px;
+      text-decoration: black;
+      font-weight: bold;
+
+ }
+ .input{
+  border: 1px solid;
+  width: 35%;
+  height: 300px;
+  background-color: blue;
+  position: relative;
+  margin-left: 35%;
+  padding: 30px;
+  
+  margin-top: 80px;
+  text-align: center;
+  
+
+ }
+ form{
+  margin-left: 20px;
+  width: 80%;
+  height: 20px;
+
+ }
+ .hero_content{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(10, 2, 2); 
+  flex-direction: column;
+ }
+ .hero_text{
+          color: #fff;
+          font-size: 35px;
+          float: left;
+
+ }
+ .hero_text .p{
+  color: #fff;
+ }
+ 
+.bid{
+  color: rgb(246, 242, 242);
+  font-size: larger;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.bid{
+  
+  width: 182px;
+  height: 20px;
+  float: left;
+}
+.Quick{
+  text-decoration: underline;
+}
+/* .box{
+  border: 1px solid;
+  width: 90%;
+  height: 30px;
+  margin-top: 221px;
+  margin-left: 78px;
+  background-color:rgb(246, 242, 245) ;
+} */
+body {
+  padding: 0;
+  margin: 0;
+}
+.container.wrapper {
+  width: 100%;
+  background-image: url(images/ads3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  width: 100%;
+  border: 1px solid #ff2f00;
+  height: 50px;
+}
+.logo {
+  width: 19%;
+  height: 40px;
+  float: left;
+  margin: 3px;
+  text-align: center;
+}
+
+.nav_bar {
+  width: 60%;
+  float: left;
+}
+.search {
+  width: 20%;
+  float: left;
+  margin-top: 15px;
+}
+.container_inner {
+  width: 1120px;
+  margin: 0px auto;
+  padding: 60px 0px;
+}
+.hero_text {
+  width: 70%;
+  float: left;
+}
+.hero_btn {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+.hero_header {
+  max-width: 100%;
+  display: inline-block;
+}
+h1 {
+  color: #ddd;
+  font-size: 80px;
+  font-weight: 900;
+}
+button {
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 49px;
+}
+.hero_btn img {
+  margin-top: 150px;
+}
+
+.second ul {
+  display: inline-block;
+  width: 100%;
+}
+.second ul li {
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+.prometed {
+  background: #fff;
+  width: 72%;
+  padding: 10px 20px;
+  position: relative;
+  margin-top: -27px;
+  margin-left: 9px;
+  text-align: center;
+  font-size: 23px;
+}
+.input input {
+  padding: 5px;
+  font-size: 26px;
+  width: 100%;
+}
+.eye_icon{
+  width: 29px;
+  height: 47px;
+  margin-left: 26px;
+  margin-top: 25px;
+}
+.vid{
+  width: 89px;
+  height: 100px;
+  margin-right: 263px;
+}
+.row{
+  display: flex;
+  margin: auto;
+  padding: auto;
+background: black;
+}
+.column{
+  font-size: 17px;
+
+  color: #ddd;
+  margin: auto;
+  padding: auto;
+}
+.p .a{
+  margin: auto;
+  padding: auto;
+}
+input search{
+  width: 10px;
+  height: 10px;
+}
+.error{
+  color: #f00808;
+  margin: 0px;
+  text-align: left;
+  padding: 0px;
+}
+
